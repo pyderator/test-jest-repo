@@ -1,0 +1,97 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 1,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 2,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1650346866014,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "failureMessages": [],
+          "fullName": "adds 1+2 to equal 3",
+          "location": { "column": 1, "line": 3 },
+          "status": "passed",
+          "title": "adds 1+2 to equal 3"
+        },
+        {
+          "ancestorTitles": [],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m3\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n    at Object.<anonymous> (/Users/pyderator/Documents/Work/Grambell/tests/test-jest-gh/test.js:8:21)\n    at Promise.then.completed (/Users/pyderator/Documents/Work/Grambell/tests/test-jest-gh/node_modules/jest-circus/build/utils.js:391:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/pyderator/Documents/Work/Grambell/tests/test-jest-gh/node_modules/jest-circus/build/utils.js:316:10)\n    at _callCircusTest (/Users/pyderator/Documents/Work/Grambell/tests/test-jest-gh/node_modules/jest-circus/build/run.js:218:40)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at _runTest (/Users/pyderator/Documents/Work/Grambell/tests/test-jest-gh/node_modules/jest-circus/build/run.js:155:3)\n    at _runTestsForDescribeBlock (/Users/pyderator/Documents/Work/Grambell/tests/test-jest-gh/node_modules/jest-circus/build/run.js:66:9)\n    at run (/Users/pyderator/Documents/Work/Grambell/tests/test-jest-gh/node_modules/jest-circus/build/run.js:25:3)\n    at runAndTransformResultsToJestFormat (/Users/pyderator/Documents/Work/Grambell/tests/test-jest-gh/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)"
+          ],
+          "fullName": "This will fail",
+          "location": { "column": 1, "line": 7 },
+          "status": "failed",
+          "title": "This will fail"
+        }
+      ],
+      "endTime": 1650346866157,
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mThis will fail\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m3\u001b[39m\n    Received: \u001b[31m2\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  6 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  7 |\u001b[39m test(\u001b[32m\"This will fail\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m  8 |\u001b[39m   expect(sum(\u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[35m1\u001b[39m))\u001b[33m.\u001b[39mtoBe(\u001b[35m3\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  9 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 10 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest.js\u001b[39m\u001b[0m\u001b[2m:8:21)\u001b[22m\u001b[2m\u001b[22m\n",
+      "name": "/Users/pyderator/Documents/Work/Grambell/tests/test-jest-gh/test.js",
+      "startTime": 1650346866028,
+      "status": "failed",
+      "summary": ""
+    }
+  ],
+  "wasInterrupted": false,
+  "coverageMap": {
+    "/Users/pyderator/Documents/Work/Grambell/tests/test-jest-gh/index.js": {
+      "path": "/Users/pyderator/Documents/Work/Grambell/tests/test-jest-gh/index.js",
+      "statementMap": {
+        "0": {
+          "start": { "line": 2, "column": 2 },
+          "end": { "line": 2, "column": 15 }
+        },
+        "1": {
+          "start": { "line": 5, "column": 0 },
+          "end": { "line": 5, "column": 21 }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "sum",
+          "decl": {
+            "start": { "line": 1, "column": 9 },
+            "end": { "line": 1, "column": 12 }
+          },
+          "loc": {
+            "start": { "line": 1, "column": 19 },
+            "end": { "line": 3, "column": 1 }
+          },
+          "line": 1
+        }
+      },
+      "branchMap": {},
+      "s": { "0": 2, "1": 1 },
+      "f": { "0": 2 },
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "c4f012b8c72141e8aa41dedcf1b49b2cc283597a"
+    }
+  }
+}

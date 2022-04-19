@@ -1,7 +1,8 @@
 module.exports = {
+  coverageReporters: ["json", "html"],
   coverageThreshold: {
     global: {
-      lines: 80,
+      lines: 100,
     },
   },
 };
